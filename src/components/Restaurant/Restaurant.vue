@@ -15,6 +15,7 @@
             <img loading="lazy" src="/src/assets/img/import.svg" alt="" class="shrink-0 my-auto w-5 aspect-square" />
             <span>Ilovani yuklab olish</span>
           </a>
+           <div class="flex-row-reverse  md:flex"></div>
           <div class="mt-14 max-w-full w-[405px] max-md:mt-10">
             <div class="flex gap-5 max-md:flex-col max-md:gap-0">
               <div class=" flex-col w-[31%] max-md:ml-0 max-md:w-full hidden xl:block">
@@ -35,11 +36,13 @@
           </div>
         </div>
       </section>
-      <section class="flex flex-col ml-5 w-[58%] max-md:ml-0 max-md:w-full">
+      <section class="flex flex-col ml-5 w-[58%] max-md:ml-0 max-md:w-full ">
+        
         <img loading="lazy"
           src="/src/assets/img/group.png"
           alt="Restaurant automation illustration" class="grow w-full aspect-[1.54] max-md:mt-10 max-md:max-w-full" />
       </section>
+      
     </div>
   </main>
 </template>

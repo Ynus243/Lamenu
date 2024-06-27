@@ -1,7 +1,7 @@
 <template>
   <div class="md:grid grid-cols-2  p-[20px] items-center">
     <div class="mb-5">
-      <img class=" w-[540px] items-center" src="/src/assets/img/mobi.png" alt="Computer Image">
+      <img class=" w-[600px] items-center" src="/src/assets/img/mobi.png" alt="Computer Image">
     </div>
     <div class="grid grid-cols-1 gap-5 md:grid-cols-2">
       <div class="border border-gray-300 p-4  bg-white rounded-[32px] ">
@@ -46,3 +46,9 @@ export default {
 
 <style>
 </style>
+
+
+/src/assets/img/appstore.png
+/src/assets/img/playmarket.png
+/src/assets/img/telegram.png
+/src/assets/img/mobile3.png

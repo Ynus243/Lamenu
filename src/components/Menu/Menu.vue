@@ -19,7 +19,7 @@
               </div>
             </div>
           </section>
-          <section class="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
+          <section class="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full  mb-[10px] mt-[10px]">
             <img loading="lazy" src="/src/assets/img/xz.png" alt="Integratsiayalgan tezkor menyular illustration" class="grow w-full   max-md:mt-10 max-md:max-w-full" />
           </section>
         </div>

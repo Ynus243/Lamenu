@@ -29,7 +29,7 @@
     </div>
 
     <div class="mt-5">
-      <img class=" w-[670px]  " src="/src/assets/img/comm2.png" alt="Computer Image">
+      <img class=" w-[710px]  " src="/src/assets/img/comm2.png" alt="Computer Image">
     </div>
   </div>
 </template>

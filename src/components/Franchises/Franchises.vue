@@ -73,7 +73,7 @@
       <a href="#"
         class="flex gap-2 justify-center px-10 py-4 bg-white border border-orange-500 border-solid rounded-[46px] max-md:px-5 mt-[40px]"
         role="button">
-        <span>Ilovani yuklab olish</span>
+       <img src="/src/assets/img/import1.png" alt=""> <span>Ilovani yuklab olish</span>
       </a>
 
     </section>

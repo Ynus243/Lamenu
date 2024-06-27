@@ -1,6 +1,6 @@
 <template>
   <main class="p-[40px] bg-custom-gradient rounded-[56px] max-md:px-5 mt-[20px] mb-[20px]">
-    <div class="flex gap-5 max-md:flex-col max-md:gap-0">
+    <div class="flex md:flex-row flex-row-reverse gap-5 max-md:flex-col max-md:gap-0">
       <section class="flex flex-col max-md:ml-0">
         <div class="flex flex-col grow justify-center px-14 l max-md:px-5 max-md:mt-10 l">
           <div class="flex flex-col justify-center px-14 py-0.5 max-md:px-5">

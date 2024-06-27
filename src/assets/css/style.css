@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+@font-face {
+  font-family: 'Halvar Breitschrift';
+  src: url('/src/assets/fonts/HalvarBreitschrift.woff2') format('woff2'),
+       url('/src/assets/fonts/HalvarBreitschrift.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+
+
+body{
+  background-color: #E9ECEF;
+}

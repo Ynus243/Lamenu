@@ -11,6 +11,7 @@ module.exports = {
       },
       backgroundImage: {
         'custom-gradient': 'linear-gradient(81.88deg, #1A1A1A 12.49%, #272A36 87.51%)',
+        'bh': '#E9ECEF'
       },
       broderColor: {
         'custom-gradient': 'rgba(238, 238, 238, 1)',

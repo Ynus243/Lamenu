@@ -11,7 +11,7 @@
             Eltuvchi buyurtmani 15 daqiqada olib ketadi va uni darhol oluvchiga yetkazib beradi
           </p>
           <a href="#"
-            class="flex gap-2 justify-center self-start px-10 py-4 mt-32 text-sm md:text-xl font-medium  text-white bg-orange-500 shadow-lg rounded-[46px] max-md:px-5 max-md:mt-10">
+            class="flex gap-2 justify-center w-full md:w-auto self-start px-10 py-4 mt-32 text-sm md:text-xl font-medium  text-white bg-orange-500 shadow-lg rounded-[46px] max-md:px-5 max-md:mt-10">
             <img loading="lazy" src="/src/assets/img/import.svg" alt="" class="shrink-0 my-auto w-5 aspect-square" />
             <span>Ilovani yuklab olish</span>
           </a>

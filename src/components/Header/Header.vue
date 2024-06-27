@@ -104,7 +104,7 @@
             <img src="/src/assets/img/import.svg" alt="Download icon" class="h-4 mr-2">
             Ilovani yuklab oling
           </button>
-          <button class="bg-orange-500 text-white rounded-full py-2 px-4 flex items-center">
+          <button class="bg-orange-500 text-white rounded-[30px] py-2 px-4 flex items-center  ">
             <img src="/src/assets/img/call.png" alt="Call icon" class="h-4 mr-2">
             Biz bilan bog‘lanish
           </button>

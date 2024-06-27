@@ -1,6 +1,6 @@
 <template>
   <section class="p-[20px] mt-[20px] bg-[linear-gradient(82deg,#1A1A1A_12.49%,#272A36_87.51%)] rounded-[56px] max-md:px-5">
-    <div class="flex md:flex-row flex-row-reverse gap-5 max-md:flex-col max-md:gap-0">
+    <div class="flex flex-col-reverse md:flex-row md:gap-10">
       <div class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
         <img loading="lazy" src="/src/assets/img/phone.png" alt=""
           class="grow w-full aspect-[1.22] max-md:mt-10 max-md:max-w-full" />

@@ -15,7 +15,7 @@
             ravishda tanlash va har bir buyurtmani kuzatishga imkon beradi.
           </p>
           <a href="#"
-            class="flex gap-2 justify-center self-start px-10 py-4 mt-10 bg-orange-500 border border-orange-500 border-solid shadow-sm leading-[150%] rounded-[46px] max-md:px-5">
+            class="flex gap-2 justify-center w-full md:w-auto self-start px-10 py-4 mt-10 bg-orange-500 border border-orange-500 border-solid shadow-sm leading-[150%] rounded-[46px] max-md:px-5">
             <img loading="lazy" src="/src/assets/img/call.png" alt="" class="shrink-0 my-auto w-5 aspect-square" />
             <span>Biz bilan bog'lanish</span>
           </a>

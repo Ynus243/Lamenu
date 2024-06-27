@@ -6,7 +6,7 @@
         <h1 class=" text-[24px] md:text-6xl  text-zinc-900 max-md:max-w-full max-md:text-4xl max-md:leading-[53px]">
           Shuningdek Yandex Delivery hizmati
         </h1>
-        <p class="mt-12 text-[20px]  md:text-2xl  text-orange-500 max-md:mt-10 max-md:max-w-full">
+        <p class="mt-12 text-[20px]  md:text-2xl   max-md:mt-10 max-md:max-w-full">
           Ilovamiz, qulay xizmatlarni ta'minlash uchun
           <span class="text-orange-500">Yandex Delivery</span>
           bilan hamkorlik qiladi!

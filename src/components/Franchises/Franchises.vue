@@ -3,7 +3,7 @@
     <section class="flex flex-col items-center mt-2.5 max-w-full w-[1092px]">
       <h1
         class=" text-[24px] md:text-5xl font-medium text-center leading-[58px] text-zinc-900 w-[675px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px]">
-        Franshizalarni osonlik bilan nazorat qilish
+        {{$t('title3')}}
       </h1>
       <div class="md:block hidden self-stretch mt-20 max-md:mt-10 max-md:max-w-full">
         <div class="flex gap-5 max-md:flex-col max-md:gap-0">
@@ -16,7 +16,7 @@
                     class="w-full aspect-square" />
                 </div>
                 <h2 class="mt-4 text-[20px] md:text-2xl font-medium leading-9 text-center text-zinc-900">
-                  Ma'lumotlarni analiz qilish
+                  {{$t('li1')}}
                 </h2>
               </div>
               <div class="flex flex-col mt-4">
@@ -26,7 +26,7 @@
                     class="w-full aspect-square" />
                 </div>
                 <h2 class="mt-4 text-[20px] md:text-2xl font-medium leading-9 text-center text-zinc-900">
-                  Ish Rejalashtirish
+                  {{$t('li2')}}
                 </h2>
               </div>
             </div>
@@ -52,7 +52,7 @@
                     class=" md:w-full aspect-square" />
                 </div>
                 <h2 class="mt-4 text-[20px] md:text-2xl font-medium leading-9 text-center text-zinc-900">
-                  Texnologik Rivojlanish
+                  {{$t('li3')}}
                 </h2>
               </div>
               <div class="flex flex-col mt-4">
@@ -62,7 +62,7 @@
                     class="w-full aspect-square" />
                 </div>
                 <h2 class="mt-4 text-[20px] md:text-2xl font-medium leading-9 text-center text-zinc-900">
-                  Shaffof va Oson Boshqaruv
+                  {{$t('li4')}}
                 </h2>
               </div>
             </div>
@@ -82,7 +82,7 @@
                     class="w-full aspect-square" />
                 </div>
                 <h2 class="mt-4 text-[20px] md:text-2xl font-medium leading-9 text-center text-zinc-900">
-                  Ma'lumotlarni analiz qilish
+                  {{$t('li1')}}
                 </h2>
               </div>
               <div class="flex flex-col mt-4">
@@ -92,7 +92,7 @@
                     class="w-full aspect-square" />
                 </div>
                 <h2 class="mt-4 text-[20px] md:text-2xl font-medium leading-9 text-center text-zinc-900">
-                  Ish Rejalashtirish
+                  {{$t('li2')}}
                 </h2>
               </div>
             </div>
@@ -106,7 +106,7 @@
                     class=" md:w-full aspect-square" />
                 </div>
                 <h2 class="mt-4 text-[20px] md:text-2xl font-medium leading-9 text-center text-zinc-900">
-                  Texnologik Rivojlanish
+                  {{$t('li3')}}
                 </h2>
               </div>
               <div class="flex flex-col mt-4">
@@ -116,7 +116,7 @@
                     class="w-full aspect-square" />
                 </div>
                 <h2 class="mt-4 text-[20px] md:text-2xl font-medium leading-9 text-center text-zinc-900">
-                  Shaffof va Oson Boshqaruv
+                  {{$t('li4')}}
                 </h2>
               </div>
             </div>
@@ -140,7 +140,7 @@
       <a href="#"
         class="flex gap-2 justify-center px-10 py-4 w-full md:w-auto bg-white border border-orange-500 border-solid rounded-[46px] max-md:px-5 mt-[40px]"
         role="button">
-       <img src="/src/assets/img/import1.png" alt=""> <span>Ilovani yuklab olish</span>
+       <img src="/src/assets/img/import1.png" alt=""> <span>{{$t('button')}}</span>
       </a>
 
     </section>

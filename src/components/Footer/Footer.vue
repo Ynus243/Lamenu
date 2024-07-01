@@ -7,12 +7,12 @@
         </div>
         <header class="flex items-center justify-between h-20">
           <ul class="flex flex-wrap gap-5 text-lg">
-            <li>Tezkor menyu</li>
-            <li>Operatorlar</li>
-            <li>Franshiza</li>
-            <li>Oshxona</li>
-            <li>Integratsiya</li>
-            <li>Kuryerlar</li>
+            <li>{{$t('le1')}}</li>
+            <li>{{$t('le2')}}</li>
+            <li>{{$t('le3')}}</li>
+            <li>{{$t('le4')}}</li>
+            <li>{{$t('le5')}}</li>
+            <li>{{$t('le6')}}</li>
           </ul>
         </header>
       </div>
@@ -35,8 +35,6 @@
               </a>
             </div>
           </div>
-
-
           <div class="border-gray-200 border-b pt-4 md:border-none mt-4"></div>
 
           <div class="policies flex flex-col md:flex-row md:justify-between items-start pt-4">

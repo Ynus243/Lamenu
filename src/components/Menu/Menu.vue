@@ -6,15 +6,15 @@
           <section class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
             <div class="flex flex-col self-stretch my-auto max-md:mt-10 max-md:max-w-full">
               <h1 class=" text-[24px] md:text-5xl font-medium leading-[58px] text-zinc-900 max-md:max-w-full max-md:text-4xl max-md:leading-[54px]">
-                Integratsiayalgan tezkor menyular
+                {{$t('menu')}}
               </h1>
               <div class="flex flex-col mt-20 max-md:mt-10 max-md:max-w-full">
                 <div class="flex gap-2 self-start text-2xl font-medium leading-8 whitespace-nowrap text-zinc-900">
                   <img loading="lazy" src="/src/assets/img/el.png" alt="" class="shrink-0 my-auto w-6 aspect-square" />
-                  <h2>Menyular</h2>
+                  <h2>{{$t('menus')}}</h2>
                 </div>
                 <p class="mt-4 text-[14px] md:text-xl  text-zinc-600 max-md:max-w-full">
-                  Integratsiayalangan tezkor menyular yangi taomlar va ichimliklarni Offline qo'shish imkoniyati va o'zgarishlar avtomatik boshqa foydalanuvchilarda ham o'zgarishi.
+                  {{$t('p2')}}
                 </p>
               </div>
             </div>

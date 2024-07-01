@@ -8,11 +8,10 @@
       <div class="flex flex-col mr-5 w-6/12 max-md:ml-0 max-md:w-full">
         <article class="flex flex-col self-stretch pt-2.5 my-auto max-md:mt-10 max-md:max-w-full">
           <h1 class="text-[24px] md:text-5xl font-medium text-white max-md:max-w-full max-md:text-4xl max-md:leading-[54px]">
-            Integratsiayalgan tezkor posterlar
+            {{$t('title2')}}
           </h1>
           <p class="mt-11 text-[16px] md:text-xl text-slate-50 max-md:mt-10 max-md:max-w-full">
-            Integratsiayalangan tezkor posterlar xaridorlar onlayn buyurtma berish va to'lovni bajarishlari uchun
-            to'g'ri va samarali yo'nalishlar yaratiladi.
+            {{$t('p3')}}
           </p>
           <div class="flex gap-4 justify-between mt-10 md:flex-wrap">
             <div

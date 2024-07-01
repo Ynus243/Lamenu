@@ -5,15 +5,15 @@
         <div class="flex flex-col grow max-md:mt-10 max-md:max-w-full">
           <h1
             class="text-lg md:text-6xl font-medium text-white max-md:max-w-full max-md:text-4xl max-md:leading-[53px]">
-            Avtomatlashtirilga restoran
+            {{$t('title')}}
           </h1>
           <p class="mt-6 text-[16px] md:text-2xl font-medium leading-9 text-white max-md:max-w-full">
-            Eltuvchi buyurtmani 15 daqiqada olib ketadi va uni darhol oluvchiga yetkazib beradi
+            {{$t('p')}}
           </p>
           <a href="#"
-            class="flex gap-2 justify-center w-full md:w-auto self-start px-10 py-4 mt-32 text-sm md:text-xl font-medium  text-white bg-orange-500 shadow-lg rounded-[46px] max-md:px-5 max-md:mt-10">
+            class="flex gap-2 justify-center w-full md:w-auto self-start px-10 py-4 mt-32 text-sm md:text-xl font-medium  text-white bg-customOrange shadow-lg rounded-[46px] max-md:px-5 max-md:mt-10">
             <img loading="lazy" src="/src/assets/img/import.svg" alt="" class="shrink-0 my-auto w-5 aspect-square" />
-            <span>Ilovani yuklab olish</span>
+            <span>{{$t('button')}}</span>
           </a>
            <div class="flex-row-reverse  md:flex"></div>
           <div class="mt-14 max-w-full w-[405px] max-md:mt-10">
@@ -25,10 +25,10 @@
               <div class="flex flex-col ml-5 w-[69%] max-md:ml-0 max-md:w-full">
                 <div class="flex flex-col grow max-md:mt-6">
                   <h2 class=" text-lg md:text-2xl font-medium leading-7 text-white">
-                    Ilovamizni QR code orqali yuklab oling
+                    {{$t('download')}}
                   </h2>
                   <p class="mt-2 text-lg leading-7 text-stone-300">
-                    Kamerani QR kodga qarating,ilovaga o'tish uchun
+                    {{$t('camera')}}
                   </p>
                 </div>
               </div>

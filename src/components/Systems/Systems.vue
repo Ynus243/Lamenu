@@ -5,7 +5,7 @@
         <div class="flex flex-col self-stretch my-auto max-md:mt-10 max-md:max-w-full">
           <h1
             class="text-5xl font-medium leading-[58px] text-zinc-900 max-md:max-w-full max-md:text-4xl max-md:leading-[54px]">
-            Barcha sistemalarga moslashuvchan ilova
+            {{$t('title5')}}
           </h1>
           <div class="flex flex-col  mt-64 max-md:mt-10 max-md:max-w-full">
             <nav
@@ -32,8 +32,7 @@
               </div>
             </nav>
             <p class="mt-10 text-xl leading-8 text-zinc-600 max-md:max-w-full">
-              Boshqaruv tizimidagi posterlar, sms xizmatlari, telefoniya va yetkazib berishlarni sodda, samarali va
-              to'liqroq boshqarishni ta'minlaydi.
+              {{$t('p9')}}
             </p>
           </div>
         </div>

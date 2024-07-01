@@ -21,6 +21,9 @@ module.exports = {
         'xl': '810px',
         'xx': '1300px'
       },
+      colors: {
+        customOrange: 'rgba(255, 122, 0, 1)',
+      },
     },
   },
   variants: {

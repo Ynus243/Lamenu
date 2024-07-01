@@ -20,8 +20,8 @@
         <div class="relative">
           <button @click="toggleLanguageDropdown"
             class="flex items-center gap-2 bg-white p-2 rounded-[46px] focus:outline-none">
-            <img :src="flagSrc" alt="Flag" class="h-6 w-6 rounded-full">
-            {{ selectedLanguage }}
+            <img :src="flagSrc" alt="Flag" class="h-4">
+            {{ getLanguageName(selectedLanguage) }}
             <span class="ml-1">
               <svg :class="{ 'rotate-180': languageDropdownOpen }" class="h-4 w-4 transition-transform"
                 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -31,27 +31,24 @@
           </button>
           <div v-if="languageDropdownOpen" class="absolute top-full mt-2 bg-white shadow-lg rounded-lg w-32">
             <ul class="rounded-lg overflow-hidden">
-              <li @click="selectLanguage('Uzb', '/src/assets/img/uzb-flag.png')"
-                class="flex items-center gap-2 px-4 py-2 cursor-pointer">
-                <img src="/src/assets/img/uzb-flag.png" alt="Uzbekistan flag" class="h-6 w-6 rounded-full">
-                Uzb
+              <li @click="selectLanguage('uz', '/src/assets/img/uzb-flag.png')" class="flex items-center gap-2 px-4 py-2 cursor-pointer">
+                <img src="/src/assets/img/uzb-flag.png" alt="Uzb Flag" class="h-4">
+                <span>Uzb</span>
               </li>
-              <li @click="selectLanguage('Rus', '/src/assets/img/ru.png')"
-                class="flex items-center gap-2 px-4 py-2 cursor-pointer">
-                <img src="/src/assets/img/ru.png" alt="Russia flag" class="h-6 w-6 rounded-full">
-                Rus
+              <li @click="selectLanguage('ru', '/src/assets/img/ru.png')" class="flex items-center gap-2 px-4 py-2 cursor-pointer">
+                <img src="/src/assets/img/ru.png" alt="Rus Flag" class="h-4">
+                <span>Rus</span>
               </li>
-              <li @click="selectLanguage('Eng', '/src/assets/img/en.png')"
-                class="flex items-center gap-2 px-4 py-2 cursor-pointer">
-                <img src="/src/assets/img/en.png" alt="English flag" class="h-6 w-6 rounded-full">
-                Eng
+              <li @click="selectLanguage('en', '/src/assets/img/en.png')" class="flex items-center gap-2 px-4 py-2 cursor-pointer">
+                <img src="/src/assets/img/en.png" alt="Eng Flag" class="h-4">
+                <span>Eng</span>
               </li>
             </ul>
           </div>
         </div>
         <div class="flex items-center gap-2 bg-white p-2 rounded-[46px]">
           <img src="/src/assets/img/doc.svg" alt="Document icon" class="h-4">
-          <button class="text-gray-700 focus:outline-none">Ilovani yuklab oling</button>
+          <button class="text-gray-700 focus:outline-none">{{$t('button')}}</button>
         </div>
         <div>
           <p class="text-orange-500 font-bold text-2xl leading-none">
@@ -73,40 +70,37 @@
           </button>
         </div>
         <ul class="mt-4 space-y-4 text-gray-700 flex-grow flex flex-col items-center justify-center">
-          <li>Asosiy</li>
-          <li>Tezkor menyu</li>
-          <li>Operatorlar</li>
-          <li>Franshiza</li>
-          <li>Oshxona</li>
-          <li>Integratsiya</li>
-          <li>Kuryerlar</li>
+          <li>{{$t('le')}}</li>
+          <li>{{$t('le1')}}</li>
+          <li>{{$t('le2')}}</li>
+          <li>{{$t('le3')}}</li>
+          <li>{{$t('le4')}}</li>
+          <li>{{$t('le5')}}</li>
+          <li>{{$t('le6')}}</li>
         </ul>
         <div class="mt-6 flex flex-col items-center space-y-4">
           <div class="flex space-x-4">
-            <div @click="selectLanguage('Uzb', '/src/assets/img/uzb-flag.png')"
+            <div @click="selectLanguage('uz', '/src/assets/img/uzb-flag.png')"
               class="flex items-center cursor-pointer">
-              <img src="/src/assets/img/uzb-flag.png" alt="Uzbekistan flag" class="h-6 w-6 rounded-full">
-              <span :class="{ 'font-bold': selectedLanguage === 'Uzb', 'font-normal': selectedLanguage !== 'Uzb' }"
-                class="ml-2">Uzb</span>
+              <img src="/src/assets/img/uzb-flag.png" alt="Uzb Flag" class="h-4">
+              <span :class="{ 'font-bold': selectedLanguage === 'uz', 'font-normal': selectedLanguage !== 'uz' }">Uzb</span>
             </div>
-            <div @click="selectLanguage('Rus', '/src/assets/img/ru.png')" class="flex items-center cursor-pointer">
-              <img src="/src/assets/img/ru.png" alt="Russia flag" class="h-6 w-6 rounded-full">
-              <span :class="{ 'font-bold': selectedLanguage === 'Rus', 'font-normal': selectedLanguage !== 'Rus' }"
-                class="ml-2">Rus</span>
+            <div @click="selectLanguage('ru', '/src/assets/img/ru.png')" class="flex items-center cursor-pointer">
+              <img src="/src/assets/img/ru.png" alt="Rus Flag" class="h-4">
+              <span :class="{ 'font-bold': selectedLanguage === 'ru', 'font-normal': selectedLanguage !== 'ru' }">Rus</span>
             </div>
-            <div @click="selectLanguage('Eng', '/src/assets/img/en.png')" class="flex items-center cursor-pointer">
-              <img src="/src/assets/img/en.png" alt="English flag" class="h-6 w-6 rounded-full">
-              <span :class="{ 'font-bold': selectedLanguage === 'Eng', 'font-normal': selectedLanguage !== 'Eng' }"
-                class="ml-2">Eng</span>
+            <div @click="selectLanguage('en', '/src/assets/img/en.png')" class="flex items-center cursor-pointer">
+              <img src="/src/assets/img/en.png" alt="Eng Flag" class="h-4">
+              <span :class="{ 'font-bold': selectedLanguage === 'en', 'font-normal': selectedLanguage !== 'en' }">Eng</span>
             </div>
           </div>
           <button class="bg-white text-gray-700 border border-gray-700 rounded-full py-2 px-4 flex items-center">
             <img src="/src/assets/img/import.svg" alt="Download icon" class="h-4 mr-2">
-            Ilovani yuklab oling
+            {{$t('button')}}
           </button>
           <button class="bg-orange-500 text-white rounded-[30px] py-2 px-4 flex items-center  ">
             <img src="/src/assets/img/call.png" alt="Call icon" class="h-4 mr-2">
-            Biz bilan bog‘lanish
+            {{$t('button2')}}
           </button>
         </div>
       </div>
@@ -115,28 +109,78 @@
 </template>
 
 <script>
+import { useI18n } from 'vue-i18n';
+import { ref, watchEffect } from 'vue';
+
 export default {
   name: 'Header',
-  data() {
-    return {
-      languageDropdownOpen: false,
-      selectedLanguage: 'Uzb',
-      flagSrc: "/src/assets/img/uzb-flag.png",
-      isMenuVisible: false,
-    };
-  },
-  methods: {
-    toggleLanguageDropdown() {
-      this.languageDropdownOpen = !this.languageDropdownOpen;
-    },
-    selectLanguage(language, flag) {
-      this.selectedLanguage = language;
-      this.flagSrc = flag;
-      this.languageDropdownOpen = false;
-    },
-    toggleMenuVisibility() {
-      this.isMenuVisible = !this.isMenuVisible;
+  setup() {
+    const { t, locale } = useI18n();
+
+    const languageDropdownOpen = ref(false);
+    const selectedLanguage = ref('uz');
+    const flagSrc = ref("/src/assets/img/uzb-flag.png");
+    const isMenuVisible = ref(false);
+
+    function toggleLanguageDropdown() {
+      languageDropdownOpen.value = !languageDropdownOpen.value;
     }
+
+    function selectLanguage(language, flag) {
+      selectedLanguage.value = language;
+      flagSrc.value = flag;
+      locale.value = language; 
+      localStorage.setItem('lang', language); 
+      languageDropdownOpen.value = false;
+    }
+
+    function toggleMenuVisibility() {
+      isMenuVisible.value = !isMenuVisible.value;
+    }
+
+    function getLanguageName(lang) {
+      switch (lang) {
+        case 'uz':
+          return 'Uzb';
+        case 'ru':
+          return 'Rus';
+        case 'en':
+          return 'Eng';
+        default:
+          return '';
+      }
+    }
+
+    watchEffect(() => {
+      const storedLang = localStorage.getItem('lang');
+      if (storedLang) {
+        locale.value = storedLang;
+        selectedLanguage.value = storedLang;
+        switch (storedLang) {
+          case 'uz':
+            flagSrc.value = "/src/assets/img/uzb-flag.png";
+            break;
+          case 'ru':
+            flagSrc.value = "/src/assets/img/ru.png";
+            break;
+          case 'en':
+            flagSrc.value = "/src/assets/img/en.png";
+            break;
+        }
+      }
+    });
+
+    return {
+      languageDropdownOpen,
+      selectedLanguage,
+      flagSrc,
+      isMenuVisible,
+      toggleLanguageDropdown,
+      selectLanguage,
+      toggleMenuVisibility,
+      getLanguageName,
+      t
+    };
   }
 };
 </script>
@@ -156,12 +200,12 @@ export default {
 .slide-fade-leave-active {
   transition: all 0.3s ease;
   opacity: 0;
-  transform: translatey(-100%);
+  transform: translateY(-100%);
 }
 
 .slide-fade-enter,
 .slide-fade-leave-to {
   opacity: 0;
-  transform: translatey(-100%);
+  transform: translateY(-100%);
 }
 </style>

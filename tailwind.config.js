@@ -15,6 +15,7 @@ module.exports = {
       },
       broderColor: {
         'custom-gradient': 'rgba(238, 238, 238, 1)',
+        'custom-gradient2': 'rgba(26, 26, 26, 1)',
       },
       screens: {
         'sm': '1160px',

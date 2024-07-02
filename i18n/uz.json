@@ -1,0 +1,77 @@
+{   
+    
+    "title": "Avtomatlashtirilga ",
+    "titleq1": "restoran ",
+    "button": "Ilovani yuklab olish",
+    "p": "Eltuvchi buyurtmani 15 daqiqada olib ketadi va uni darhol oluvchiga yetkazib beradi",
+    "download": "Ilovamizni QR code orqali yuklab oling",
+    "camera": "Kamerani QR kodga qarating,ilovaga o'tish uchun",
+
+    "menu": "Integratsiayalgan tezkor ",
+    "menuq1": "menyular ",
+    "menus": "Menyular",
+    "p2": "Integrated quick menus with the ability to add new dishes and drinks Offline and changes automatically to other users.",
+
+    "title2": "Integratsiayalgan tezkor ",
+    "titleq2": "posterlar",
+    "p3": "Integratsiayalangan tezkor posterlar xaridorlar onlayn buyurtma berish va to'lovni bajarishlari uchun to'g'ri va samarali yo'nalishlar yaratiladi.",
+
+    "h1": "Qo‘ng‘iroq",
+    "h1q": "markazini",
+    "p4": "Qo'ng'iroq tizimlari korxonaning boshqa tizimlari bilan integratsiya qilinadi. Bu, ma'lumot almashish, barcha texnologik vositalarni birlashtiradi osonlashtiradi.",
+    "h2": "Ma'lumotlar Tizimi:",
+    "p5": "Barcha ma'lumotlarni bir joyda saqlashni osonlashtiradi. Bu ma'lumotlarni izlay olishni yoki ma'lumotlarga yozuv qo'shishni osonlashtiradi",
+    "h3": "Mijozlarga Yaxshi Xizmat:",
+    "p6": "Barcha xizmat ko'rsatuvchilar ma'lumotlarga tez va oson kirishadi, avtomatik javoblar mijozlar bilan xatoliklar tez aniqlanadi va bartaraf etiladi.",
+    "h4": "Mijozlarga Yaxshi Xizmat:",
+    "p7": "Barcha xizmat ko'rsatuvchilar ma'lumotlarga tez va oson kirishadi, avtomatik javoblar mijozlar bilan xatoliklar tez aniqlanadi va bartaraf etiladi.",
+
+    "title3": "Franshizalarni osonlik bilan nazorat qilish",
+    "li1": "Ma'lumotlarnianaliz qilish",
+    "li2": "Ish Rejalashtirish",
+    "li3": "Texnologik Rivojlanish ",
+    "li4": "Shaffof va Oson Boshqaruv",
+    
+    "title4": "Oshxona jarayonlarini ",
+    "titleq4": "platforma orqali oson boshqaring ",
+    "menu2": "Avtomatlashtirilgan oshxona",
+    "p8": "Jarayonni boshqarish va buyurtmalarini tez-tez qabul qilishda juda tezlik va tozalik yaratadi. Bu, buyurtmalarni kutish va qabul qilishni osonlashtiradi.",
+    
+    "title5": "Barcha sistemalarga ",
+    "titleq5": "moslashuvchan ilova ",
+    "p9": "Boshqaruv tizimidagi posterlar, sms xizmatlari, telefoniya va yetkazib berishlarni sodda, samarali va to'liqroq boshqarishni ta'minlaydi.",
+
+    "title6": "Tizim kuryerlari",
+    "titleq6": "bilan ishlash yanada oson!",
+    "kur": "Kuryerlar",
+    "p10": "Buyurtmalar kiritilgan vaqtida tizim tomonidan avtomatik ravishda qabul qilish, kuryerlar orasidan avtomatik ravishda tanlash va har bir buyurtmani kuzatishga imkon beradi.",
+    "button2": "Biz bilan bog'lanish",
+
+    "title7": "Shuningdek Yandex Delivery hizmati",
+    "menu3": "Ilovamiz, qulay xizmatlarni ta'minlash uchun Yandex Delivery bilan hamkorlik qiladi!",
+    "p11": "Taom yetkazib berish xizmatini nazorat qilish imkoniyatiga ega bo'lgan, texnologiyalar bilan yuqori sifatli avtomatizatsiyali Lamenu ni sinabko'ring.",
+    "p12": "Yandex Delivery orqali xizmatlaringizni yanada soddalashtirish va hamkorlarimiz xizmatlarini osonlashtirish uchun tayyor.",
+
+    "le": "Asosiy",
+    "le1": "Tezkor menyu",
+    "le2": "Operatorlar",
+    "le3": "Franshiza",
+    "le4": "Oshxona",
+    "le5": "Integratsiya",
+    "le6": "Kuryerlar",
+
+    "le7": "Istalgan usul bilan",
+    "leq7": "to‘lov qilish imkoniyati",
+    "le8": "Bizning foydali xizmatlarimiz",
+    "le9": "Bizdan mamnun mijozlarimiz",
+
+    "le10": "Qo‘ng‘iroq  markazini",
+    "le11": "integratsiya qilish",
+    "le12": "Ilovani yuklab olish",
+
+    "le13": "Istalgan usul bilan to‘lov qilish imkoniyati",
+    "le14": "Ilovani yuklab olish"
+
+    
+
+}

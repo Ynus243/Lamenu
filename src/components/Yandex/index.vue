@@ -47,7 +47,7 @@
                         </div>
                     </div>
                 </div>
-                <img src="/src/assets/img/Yandex.png" alt="" class="w-[600px]" />
+                <img src="/src/assets/img/Yandex.png" alt="" class="md:w-[600px]  w-full" />
             </div>
         </section>
 

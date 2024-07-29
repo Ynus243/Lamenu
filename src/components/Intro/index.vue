@@ -15,7 +15,8 @@
                 <p class="text-customGray text-[14px] mt-[16px] font-[400]">5 kun ichida to’liq ishga tushirib beramiz</p>
             </div>
         </div>
-        <img src="/src/assets/img/Computer.svg" alt="" class="absolute md:bottom-[-50px] right-0 w-full md:w-[900px]" />
+        <img src="/src/assets/img/Computer.svg" alt="" class="absolute md:bottom-[-50px] right-0 w-full  md:w-[900px]" />
+      
     </section>
 </template>
 

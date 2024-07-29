@@ -49,7 +49,8 @@
                     <img src="/src/assets/img/women.png" alt="" class="w-[800px] absolute md:block hidden  right-0 top-20">
                     <img src="/src/assets/img/women.png" alt="" class="w-[800px]  md:hidden blcok ">
                 </div>
-                <img src="/src/assets/img/image 348.svg" alt="" class="center-bottom-img left-[30%] md:left-[50%] md:w-auto w-[180px]">
+                <img src="/src/assets/img/image 348.svg" alt="" class="center-bottom-img left-[30%] md:block hidden  md:left-[50%] md:w-auto w-[180px]">
+                <img src="/src/assets/img/image 348 (1).svg" alt="" class="md:hidden block center-bottom-img left-[30%] md:left-[50%] md:w-auto ">
             </div>
         </div>
     </div>

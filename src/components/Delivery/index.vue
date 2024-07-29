@@ -23,7 +23,7 @@
                </div>
             </div>
          </div>
-         <img src="/src/assets/img/adapt.png" alt="" class="w-[600px] md:mt-0 mt-[12px]">
+         <img src="/src/assets/img/adapt.png" alt="" class="w-full md:w-[600px] md:mt-0 mt-[12px]">
       </div>
    </div>
 </template>

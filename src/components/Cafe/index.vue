@@ -1,9 +1,9 @@
 <template>
     <div class=" px-[16px] md:px-[100px] flex-col ">
         <div class="bg-custom-gradient rounded-[40px] p-[24px] md:px-[120px] md:pt-[56px] gap-[40px] md:flex">
-            <img src="/src/assets/img/Comp.png" alt="" class="">
+            <img src="/src/assets/img/Comp.png" alt="" class="w-full md:w-auto">
             <div class="flex flex-col">
-                <h1 class="text-white text-[32px] md:text-[56px] font-[700] mb-[24px] ">Restoran va kafelar <br> uchun
+                <h1 class="text-white text-[32px] md:text-[56px] font-[700] mb-[24px] ">Restoran va kafelar  uchun
                     Online Menu</h1>
                     <div class="flex items-center gap-2">
     <img src="/src/assets/img/setting-3.svg" alt="">

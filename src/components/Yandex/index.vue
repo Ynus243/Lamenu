@@ -4,8 +4,8 @@
             <h1 class=" text-[24px] md:text-[40px]  col-span-2 font-[700]">Mavjud agregatorlardan buyurtmani to’g’ridan to’g’ri kassaga
                 yo’naltirish
             </h1>
-            <ul class="gap-6 p-2 mt-[24px] md:mt-0 justify-center items-center rounded-[80px] bg-customGrey1 flex">
-                <li class="bg-white py-2 px-4 rounded-[80px] text-[16px] font-[500]">Yandex </li>
+            <ul class="gap-[50px] p-2 mt-[24px] md:mt-0 justify-center items-center rounded-[80px] bg-customGrey1 flex">
+                <li class=" bg-white rounded-[80px] py-2 px-4 text-customGray text-[16px] font-[500]">Yandex </li>
                 <li class=" text-[16px] font-[500] text-customGray">Uzum </li>
                 <li class="text-[16px] font-[500] text-customGray">Express </li>
                 <li class="text-[16px] font-[500] text-customGray">Bringo</li>

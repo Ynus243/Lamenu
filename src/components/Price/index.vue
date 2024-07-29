@@ -16,7 +16,7 @@
                 'bg-custom-gradient ': index === plans.length - 1,
                 'w-full': true
               }"
-              class="py-[16px] px-[80px] rounded-[46px] font-[500] text-[13px] text-white shadow-customOrangeShadow mb-4">
+              @click="scrollTo('section1')"  class="py-[16px] px-[80px] rounded-[46px] font-[500] text-[13px] text-white shadow-customOrangeShadow mb-4">
               Tarifni sotib oling
             </button>
             <button
@@ -25,15 +25,19 @@
               Ko’proq ko’rish
             </button>
           </div>
-          <ul :class="{'hidden md:block': !plan.showContent && !isLargeScreen, 'block': plan.showContent || isLargeScreen}" class="mt-[24px] flex flex-col gap-y-4 flex-grow">
-            <li v-for="(item, itemIndex) in plan.features" :key="itemIndex" class="font-[400] text-[14px] flex gap-2 items-start">
-              <img src="/src/assets/img/tick-circle (1).svg" alt="">{{ item }}
-            </li>
-          </ul>
+          <transition name="slide-fade">
+            <ul v-show="plan.showContent || isLargeScreen" class="mt-[24px] flex flex-col gap-y-4 flex-grow">
+              <li v-for="(item, itemIndex) in plan.features" :key="itemIndex" class="font-[400] text-[14px] flex gap-2 items-start">
+                <img src="/src/assets/img/tick-circle (1).svg" alt="">{{ item }}
+              </li>
+            </ul>
+          </transition>
         </div>
       </div>
     </div>
   </template>
+  
+  
   
   <script>
   export default {
@@ -149,7 +153,13 @@
       },
       toggleContent(index) {
         this.plans[index].showContent = !this.plans[index].showContent;
+      },
+      scrollTo(sectionId) {
+      const section = document.getElementById(sectionId);
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
       }
+    }
     }
   };
   </script>
@@ -158,5 +168,17 @@
   .align-middle {
     align-self: center;
   }
+  
+  .slide-fade-enter-active,
+  .slide-fade-leave-active {
+    transition: all 0.5s ease;
+  }
+  
+  .slide-fade-enter,
+  .slide-fade-leave-to /* .slide-fade-leave-active in <2.1.8 */ {
+    opacity: 0;
+    transform: translateY(10px);
+  }
   </style>
+  
   
